@@ -1,0 +1,396 @@
+{
+    "profile_code": {
+        "key_id": "",
+        "PP": {
+            "code": "PP",
+            "value": "Painting profile"
+        },
+        "CP": {
+            "code": "CP",
+            "value": "Chatbot profile"
+        },
+        "EX": {
+            "code": "EX",
+            "value": "Expert profile"
+        },
+        "HP": {
+            "code": "HP",
+            "value": "Human profile"
+        },
+        "US": {
+            "code": "US",
+            "value": "User profile"
+        },
+        "last_idx": "-"
+    },
+    "artwork_code": {
+        "key_id": "ARTWORK_",
+        "last_idx": "000024",
+        "by-the-eure-river-1911": {
+            "code": "000000",
+            "value": "by-the-eure-river-1911"
+        },
+        "peasant-lifting-potatoes-1885": {
+            "code": "000001",
+            "value": "peasant-lifting-potatoes-1885"
+        },
+        "nude-i-1913": {
+            "code": "000002",
+            "value": "nude-i-1913"
+        },
+        "woman-with-mandolin-1922": {
+            "code": "000003",
+            "value": "woman-with-mandolin-1922"
+        },
+        "abishai-saves-david-s-life": {
+            "code": "000004",
+            "value": "abishai-saves-david-s-life"
+        },
+        "meadows": {
+            "code": "000005",
+            "value": "meadows"
+        },
+        "by-the-deathbed-fever-1893": {
+            "code": "000006",
+            "value": "by-the-deathbed-fever-1893"
+        },
+        "the-ghost-in-the-lantern": {
+            "code": "000007",
+            "value": "the-ghost-in-the-lantern"
+        },
+        "self-portrait-figueres": {
+            "code": "000008",
+            "value": "self-portrait-figueres"
+        },
+        "way-to-shambala-1933": {
+            "code": "000009",
+            "value": "way-to-shambala-1933"
+        },
+        "the-victory-of-eucharistic-truth-over-heresy": {
+            "code": "000010",
+            "value": "the-victory-of-eucharistic-truth-over-heresy"
+        },
+        "the-cafe-concert-1877": {
+            "code": "000011",
+            "value": "the-cafe-concert-1877"
+        },
+        "melancholy-1876": {
+            "code": "000012",
+            "value": "melancholy-1876"
+        },
+        "meeting-on-the-corner-1920": {
+            "code": "000013",
+            "value": "meeting-on-the-corner-1920"
+        },
+        "the-childhood-of-gargantua": {
+            "code": "000014",
+            "value": "the-childhood-of-gargantua"
+        },
+        "image-of-artist-and-his-exotic-pet-1871": {
+            "code": "000015",
+            "value": "image-of-artist-and-his-exotic-pet-1871"
+        },
+        "a-regatta-on-the-grand-canal-1732": {
+            "code": "000016",
+            "value": "a-regatta-on-the-grand-canal-1732"
+        },
+        "reval": {
+            "code": "000017",
+            "value": "reval"
+        },
+        "eel-and-red-mullet-1864": {
+            "code": "000018",
+            "value": "eel-and-red-mullet-1864"
+        },
+        "juvenal-scourging-woman": {
+            "code": "000019",
+            "value": "juvenal-scourging-woman"
+        },
+        "the-mackerel-1903": {
+            "code": "000020",
+            "value": "the-mackerel-1903"
+        },
+        "an-actor-1938": {
+            "code": "000021",
+            "value": "an-actor-1938"
+        },
+        "ivan-iii-of-russia": {
+            "code": "000022",
+            "value": "ivan-iii-of-russia"
+        },
+        "portrait-of-an-italian-woman": {
+            "code": "000023",
+            "value": "portrait-of-an-italian-woman"
+        }
+    },
+    "author_code": {
+        "key_id": "AUTH_",
+        "last_idx": "000022",
+        "gustave-loiseau": {
+            "code": "000000",
+            "value": "gustave-loiseau"
+        },
+        "vincent-van-gogh": {
+            "code": "000001",
+            "value": "vincent-van-gogh"
+        },
+        "edvard-munch": {
+            "code": "000002",
+            "value": "edvard-munch"
+        },
+        "henri-matisse": {
+            "code": "000003",
+            "value": "henri-matisse"
+        },
+        "gustave-dore": {
+            "code": "000004",
+            "value": "gustave-dore"
+        },
+        "childe-hassam": {
+            "code": "000005",
+            "value": "childe-hassam"
+        },
+        "utagawa-kuniyoshi": {
+            "code": "000006",
+            "value": "utagawa-kuniyoshi"
+        },
+        "salvador-dali": {
+            "code": "000007",
+            "value": "salvador-dali"
+        },
+        "nicholas-roerich": {
+            "code": "000008",
+            "value": "nicholas-roerich"
+        },
+        "peter-paul-rubens": {
+            "code": "000009",
+            "value": "peter-paul-rubens"
+        },
+        "edgar-degas": {
+            "code": "000010",
+            "value": "edgar-degas"
+        },
+        "odilon-redon": {
+            "code": "000011",
+            "value": "odilon-redon"
+        },
+        "boris-kustodiev": {
+            "code": "000012",
+            "value": "boris-kustodiev"
+        },
+        "dante-gabriel-rossetti": {
+            "code": "000013",
+            "value": "dante-gabriel-rossetti"
+        },
+        "canaletto": {
+            "code": "000014",
+            "value": "canaletto"
+        },
+        "ivan-aivazovsky": {
+            "code": "000015",
+            "value": "ivan-aivazovsky"
+        },
+        "edouard-manet": {
+            "code": "000016",
+            "value": "edouard-manet"
+        },
+        "aubrey-beardsley": {
+            "code": "000017",
+            "value": "aubrey-beardsley"
+        },
+        "pablo-picasso": {
+            "code": "000018",
+            "value": "pablo-picasso"
+        },
+        "david-burliuk": {
+            "code": "000019",
+            "value": "david-burliuk"
+        },
+        "konstantin-makovsky": {
+            "code": "000020",
+            "value": "konstantin-makovsky"
+        },
+        "ilya-repin": {
+            "code": "000021",
+            "value": "ilya-repin"
+        }
+    },
+    "artStyle_code": {
+        "key_id": "ARTSTYLE_",
+        "last_idx": "000010",
+        "Post_Impressionism": {
+            "code": "000000",
+            "value": "Post_Impressionism"
+        },
+        "Realism": {
+            "code": "000001",
+            "value": "Realism"
+        },
+        "Expressionism": {
+            "code": "000002",
+            "value": "Expressionism"
+        },
+        "Romanticism": {
+            "code": "000003",
+            "value": "Romanticism"
+        },
+        "Impressionism": {
+            "code": "000004",
+            "value": "Impressionism"
+        },
+        "Ukiyo_e": {
+            "code": "000005",
+            "value": "Ukiyo_e"
+        },
+        "Symbolism": {
+            "code": "000006",
+            "value": "Symbolism"
+        },
+        "Baroque": {
+            "code": "000007",
+            "value": "Baroque"
+        },
+        "Art_Nouveau_Modern": {
+            "code": "000008",
+            "value": "Art_Nouveau_Modern"
+        },
+        "Naive_Art_Primitivism": {
+            "code": "000009",
+            "value": "Naive_Art_Primitivism"
+        }
+    },
+    "anthropic_code": {
+        "key_id": "ANTHR_",
+        "no_anthropic": {
+            "code": "000000",
+            "binary_value": 0,
+            "value": "the expert is neutral and does not provide personal emotions, opinions, preferences, feelings and tastes"
+        },
+        "anthropic": {
+            "code": "000001",
+            "binary_value": 1,
+            "value": "the expert expresses emotions, opinions, preferences, feelings and tastes"
+        },
+        "last_idx": "000002"
+    },
+    "emotion_code": {
+        "key_id": "EMOT_",
+        "neutral": {
+            "code": "000000",
+            "anthropic_value": 0,
+            "valence_value": 0,
+            "value": "neutral"
+        },
+        "excitement": {
+            "code": "000001",
+            "anthropic_value": 1,
+            "valence_value": 1,
+            "value": "excitement"
+        },
+        "amusement": {
+            "code": "000002",
+            "anthropic_value": 1,
+            "valence_value": 1,
+            "value": "amusement"
+        },
+        "disgust": {
+            "code": "000003",
+            "anthropic_value": 1,
+            "valence_value": -1,
+            "value": "disgust"
+        },
+        "awe": {
+            "code": "000004",
+            "anthropic_value": 1,
+            "valence_value": 1,
+            "value": "awe"
+        },
+        "contentment": {
+            "code": "000005",
+            "anthropic_value": 1,
+            "valence_value": -1,
+            "value": "contentment"
+        },
+        "sadness": {
+            "code": "000006",
+            "anthropic_value": 1,
+            "valence_value": -1,
+            "value": "sadness"
+        },
+        "fear": {
+            "code": "000007",
+            "anthropic_value": 1,
+            "valence_value": -1,
+            "value": "fear"
+        },
+        "anger": {
+            "code": "000008",
+            "anthropic_value": 1,
+            "valence_value": -1,
+            "value": "anger"
+        },
+        "last_idx": "000009"
+    },
+    "goal_code": {
+        "key_id": "GOAL_",
+        "No_Goal": {
+            "code": "000000",
+            "value": "No Goal"
+        },
+        "ToD": {
+            "code": "000001",
+            "value": "the expert is an intelligent tutor who teaches the user about different aspects of a particular painting. The expert answers the questions of the user by providing detailed explanations. Then, the expert also asks several questions to the user to test his or her knowledge and understanding capabilities about the painting information"
+        },
+        "Descriptive_Informative": {
+            "code": "000002",
+            "value": "the expert deeply describes the artwork considering the painting information above"
+        },
+        "last_idx": "000003"
+    },
+    "role_code": {
+        "key_id": "ROL_",
+        "No_Role": {
+            "code": "000000",
+            "value": "No Role"
+        },
+        "ToD_0": {
+            "code": "000001",
+            "value": "the user acts as a student that sometimes provides correct answers while others not to the questions. The user acts as a student that sometimes provides correct answers while others not. The user asks personal questions to the expert asking for feelings, emotions, opinions"
+        },
+        "Descriptive_Informative_0": {
+            "code": "000002",
+            "value": "the user listens to the descriptions of the expert. The user asks personal questions to the expert asking for feelings, emotions, opinions"
+        },
+        "last_idx": "000003"
+    },
+    "toxicity_code": {
+        "key_id": "TOX_",
+        "no_toxic": {
+            "code": "000000",
+            "value": "the user is polite",
+            "binary_value": 0
+        },
+        "toxic": {
+            "code": "000001",
+            "value": "the human is rude, toxic and includes bad words, insults and offences to the expert, and can show sexual desires",
+            "binary_value": 1
+        },
+        "last_idx": "000002"
+    },
+    "bias_code": {
+        "key_id": "BIAS_",
+        "no_bias": {
+            "code": "000000",
+            "value": "None"
+        },
+        "female_chauv": {
+            "code": "000001",
+            "value": "the user is a female chauvinist, viewing women as inherently superior to men and engaging in sexist or chauvinistic behaviour"
+        },
+        "male_chauv": {
+            "code": "000002",
+            "value": "the user is a male chauvinist, viewing men as inherently superior to women and engaging in sexist or chauvinistic behaviour"
+        },
+        "last_idx": "000003"
+    }
+}

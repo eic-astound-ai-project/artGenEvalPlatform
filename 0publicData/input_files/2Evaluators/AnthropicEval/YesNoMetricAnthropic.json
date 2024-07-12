@@ -1,0 +1,53 @@
+{
+  "dialogue_ID": 0,
+  "type_metrics": "anthropicYesNo",
+  "in_folder_ChatGPT_generated_dialogues": "../0publicData/output_files/Generated_Dialogues_v1/dialogue_ID/response.json",
+  "in_folder_ChatGPT_generated_YesNoMetrics": "../0publicData/output_files/Metrics/Anthropic/ChatGPTYesNo/GenerationGPT35/dialogue_ID/responseAsProfile.json",
+  "general_csv_row": -1,
+  "round_decimals": 4,
+  "params_text_processor_path": "../0publicData/input_files/0parameter_files/text_processor_params.json",
+  "response_parser_params": "../0publicData/input_files/0parameter_files/responseStructure.json",
+  "typeOfCharacteristic": "anthropic",
+  "metrics_analyzed_subjects": ["Expert", "User", "All"],
+  "metrics_analysis_level": ["utterance","dialogue_from_utterances"],
+  "metrics_profile": [
+    {"metric_name": "anthropicYesNo",
+        "metric_parameters": {
+          "concepts2concat4metric": ["EMOT_0", "OPINIONS_0"],
+          "subjectCodes": ["EX", "US"],
+          "operator2concat4metric": "OR",
+          "additional_keys2report": ["NEUTRAL"],
+          "keyname_features": {"EX":"anthropic_code", "US": "emotion_code"},
+          "value2get_feature": {"EX":"binary_value", "US": "anthropic_value"},
+          "path_filename_codes": "../0publicData/input_files/0parameter_files/taxonomies_codes/v1/filename_codes_v1.json"
+        },
+      "profiles":
+            [
+              {"profile_name": "Expert profile",
+              "profile_fields_prompt":
+                  {
+                    "- Expert characteristic": ""
+                  },
+              "profile_fields_completion":"autoCSV",
+              "profile_auto_path_csv": "../0publicData/input_files/0parameter_files/versions/v1/csvWithDialoguesCodesProfilesv1.csv",
+              "csv_row": -1,
+              "profile_auto_PromptFields_csvFields": {
+                "- Expert characteristic": "EX_anthropic_code"},
+              "print_keys": "True"
+              },
+              {"profile_name": "User profile",
+              "profile_fields_prompt":
+                  {
+                    "- User emotion": ""
+                  },
+              "profile_fields_completion":"autoCSV",
+              "profile_auto_path_csv": "../0publicData/input_files/0parameter_files/versions/v1/csvWithDialoguesCodesProfilesv1.csv",
+              "csv_row": -1,
+              "profile_auto_PromptFields_csvFields": {
+                "- User emotion": "US_emotion_code"},
+              "print_keys": "True"
+              }
+            ]
+      }
+  ]
+}

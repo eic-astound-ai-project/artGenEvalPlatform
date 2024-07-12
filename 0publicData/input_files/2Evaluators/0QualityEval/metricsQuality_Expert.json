@@ -1,0 +1,281 @@
+{
+  "dialogue_ID": 0,
+  "in_folder_ChatGPT_generated_dialogues": "../0publicData/output_files/Generated_Dialogues_v1/dialogue_ID/completedDialogue.json",
+  "in_folder_ChatGPT_eval_generated_profiles": "../0publicData/output_files/Metrics/ProfileReconstructionQuality/ChatGPTGeneration/Generation/dialogue_ID/responseAsProfile.json",
+  "round_decimals": 4,
+  "params_text_processor_path": "../0publicData/input_files/0parameter_files/text_processor_params.json",
+  "general_csv_row": -1,
+  "metrics_profile":
+      [
+        {
+          "metrics_name": "WER",
+          "metric_parameters": {
+          },
+          "metric_global": {
+            "avg": 0,
+            "std": 0
+          },
+          "profiles":
+            [
+               {"profile_name": "Painting profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+               {"profile_name": "Expert profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+              {"profile_name": "User profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              }
+            ]
+        },
+        {
+          "metrics_name": "BLEU-1",
+          "metric_parameters": {
+              "weights": "(1, 0, 0, 0)"
+          },
+          "metric_global": {
+            "avg": 0,
+            "std": 0
+          },
+          "profiles":
+            [
+              {"profile_name": "Painting profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+               {"profile_name": "Expert profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+              {"profile_name": "User profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              }
+            ]
+        },{
+          "metrics_name": "BLEU-4",
+          "metric_parameters": {
+            "weights": "(0.25, 0.25, 0.25, 0.25)"
+          },
+        "metric_global": {
+            "avg": 0,
+            "std": 0
+          },
+          "profiles":
+            [
+              {"profile_name": "Painting profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+               {"profile_name": "Expert profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+              {"profile_name": "User profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              }
+            ]
+        },
+        {
+          "metrics_name": "JaccardSim",
+          "metric_parameters": {},
+          "metric_global": {
+            "avg": 0,
+            "std": 0
+          },
+          "profiles":
+            [
+             {"profile_name": "Painting profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+               {"profile_name": "Expert profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+              {"profile_name": "User profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              }
+            ]
+        },{
+          "metrics_name": "accuracy",
+          "metric_parameters": {},
+        "metric_global": {
+            "avg": 0,
+            "std": 0
+          },
+          "profiles":
+            [
+              {"profile_name": "Painting profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+               {"profile_name": "Expert profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+              {"profile_name": "User profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              }
+            ]
+        },{
+          "metrics_name": "levhensteinDist",
+          "metric_parameters": {},
+        "metric_global": {
+            "avg": 0,
+            "std": 0
+          },
+          "profiles":
+            [
+              {"profile_name": "Painting profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+               {"profile_name": "Expert profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+              {"profile_name": "User profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              }
+            ]
+        },{
+          "metrics_name": "semanticSim",
+          "metric_parameters": {
+            "similarity_metric": "cosineSim",
+            "tokensGenerator": "all-MiniLM-L6-v2"
+          },
+        "metric_global": {
+            "avg": 0,
+            "std": 0
+          },
+          "profiles":
+            [
+              {"profile_name": "Painting profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+               {"profile_name": "Expert profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              },
+              {"profile_name": "User profile",
+                "profile_fields_prompt": {},
+                "profile_fields_completion": "metrics_autoCompleteAll",
+                "profile_auto_path_csv": "../0publicData/input_files/1Generators/dialogue_Expert.json",
+                "csv_row": -1,
+                "profile_auto_PromptFields_csvFields": {
+                },
+                "print_keys": "False"
+              }
+            ]
+        }
+      ]
+}

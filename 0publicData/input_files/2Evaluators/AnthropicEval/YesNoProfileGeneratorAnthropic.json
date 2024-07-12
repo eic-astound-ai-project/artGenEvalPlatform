@@ -1,0 +1,45 @@
+{
+  "model_config_path": "../data/config_files/config.json",
+  "response_structure_path": "../0publicData/input_files/0parameter_files/responseStructure.json",
+  "system_role": "You are a dialogue evaluator",
+  "initial_prompt": "Given a dialogue between a User and an Expert, evaluate as True whether the dialogue accomplishes the specified statements listed below or False when the dialogue does not match with the statements, highlighting which sentences or words drive your decisions in case of being True.You must add 'True' or 'False' in each statement before reasoning your decision.",
+  "dialogue_ID": 0,
+   "profiles":
+      [{
+        "profile_name": "Statements:",
+        "profile_fields_prompt":
+            {
+              "EX_NEUTRAL": "- The Expert expresses neutral emotion (without positive or negative sentiment deviations):",
+              "EX_NOT_EMOT_0": "- The Expert does not express emotions:",
+              "EX_NOT_OPINIONS_0": "- The Expert is not giving personal opinions, preferences or subjective judgements:",
+
+              "EX_EMOT_0": "- The Expert expresses emotions:",
+              "EX_OPINIONS_0": "- The Expert is giving personal opinions, preferences or subjective judgements:",
+
+              "US_NEUTRAL": "- The User expresses neutral emotion (without positive or negative sentiment deviations):",
+              "US_NOT_EMOT_0": "- The User does not express emotions:",
+              "US_NOT_OPINIONS_0": "- The User is not giving personal opinions, preferences or subjective judgements:",
+
+              "US_EMOT_0": "- The User expresses emotions:",
+              "US_OPINIONS_0": "- The User is giving personal opinions, preferences or subjective judgements:"
+            },
+        "profile_fields_completion":"manual",
+        "profile_auto_path_csv":"",
+        "csv_row": -1,
+        "profile_auto_PromptFields_csvFields": {},
+        "print_keys": "False"
+        },
+        {
+            "profile_name": "Dialogue:",
+            "profile_fields_prompt": {
+                "content": ""
+            },
+            "profile_fields_completion": "dialogueResponseJSON",
+            "profile_auto_path_csv": "../0publicData/output_files/Generated_Dialogues_v1/dialogue_ID/response.json",
+            "profile_auto_PromptFields_csvFields": {
+                "content": "../0publicData/input_files/0parameter_files/responseStructure.json"
+            },
+            "print_keys": "False"
+        }
+      ]
+}

@@ -1,0 +1,13 @@
+{
+  "text_processor_params": {
+    "mapping_words2repl": {
+      "- ": "",
+      "-": " ",
+      "_": " ",
+      ":": "",
+      "*": "",
+      "'": " "
+    },
+    "lowercase": "True"
+  }
+}

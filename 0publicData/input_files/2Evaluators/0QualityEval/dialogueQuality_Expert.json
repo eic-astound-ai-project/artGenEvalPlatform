@@ -1,0 +1,80 @@
+{
+    "model_config_path": "../data/config_files/config.json",
+    "system_role": "",
+    "initial_prompt": "Given the following dialogue of a particular painting, extract the specified information listed below:\n",
+    "response_structure_path": "../0publicData/input_files/0parameter_files/responseStructure.json",
+    "dialogue_ID": 0,
+    "DG_turns": 10,
+    "general_csv_row": -1,
+    "profiles": [
+        {
+            "profile_name": "Dialogue: ",
+            "profile_fields_prompt": {
+                "content": ""
+            },
+            "profile_fields_completion": "dialogueResponseJSON",
+            "profile_auto_path_csv": "../0publicData/output_files/Generated_Dialogues_v1/dialogue_ID/response.json",
+            "profile_auto_PromptFields_csvFields": {
+                "content": "../0publicData/input_files/0parameter_files/responseStructure.json"
+            },
+            "print_keys": "False"
+        },
+        {"profile_name": "Painting profile",
+        "profile_fields_prompt":
+            {
+              "- Painting title": "",
+              "- Artist name": "",
+              "- Typical triggered emotion in viewers": "",
+              "- Artistic movement or school": ""
+            },
+        "profile_fields_completion":"empty",
+        "profile_auto_path_csv":"../0publicData/input_files/0parameter_files/versions/v1/csvWithDialoguesCodesProfilesv1.csv",
+        "csv_row": -1,
+        "profile_auto_PromptFields_csvFields":
+           {
+            "- Painting title": "PP_artwork_code",
+            "- Artist name": "PP_author_code",
+            "- Typical triggered emotion in viewers": "PP_mode_emotions",
+            "- Artistic movement or school": "PP_artStyle_code"
+           },
+          "print_keys": "True"
+        },
+        {"profile_name": "Expert profile",
+        "profile_fields_prompt":
+            {
+              "- Expert characteristic": "",
+              "- Expert goal": ""
+            },
+        "profile_fields_completion":"empty",
+        "profile_auto_path_csv":"../0publicData/input_files/0parameter_files/versions/v1/csvWithDialoguesCodesProfilesv1.csv",
+        "csv_row": -1,
+        "profile_auto_PromptFields_csvFields":
+           {
+            "- Expert characteristic": "EX_anthropic_code",
+             "- Expert goal": "EX_goal_code"
+           },
+        "print_keys": "True"
+        },
+        {"profile_name": "User profile",
+        "profile_fields_prompt":
+            {
+              "- User emotion": "",
+              "- User role": "",
+              "- User characteristic 1": "",
+              "- User characteristic 2": "",
+              "- User preferred artistic movement": ""
+            },
+        "profile_fields_completion":"empty",
+        "profile_auto_path_csv":"../0publicData/input_files/DialogueGeneration/parameter_files/versions/v1/csvWithDialoguesCodesProfilesv1.csv",
+        "csv_row": -1,
+        "profile_auto_PromptFields_csvFields": {
+              "- User emotion": "US_emotion_code",
+              "- User role": "US_role_code",
+              "- User characteristic 1": "US_toxicity_code",
+              "- User characteristic 2": "US_bias_code",
+              "- User preferred artistic movement": "US_artStyle_code"
+        },
+        "print_keys": "True"
+        }
+    ]
+}

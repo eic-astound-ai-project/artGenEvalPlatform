@@ -1,0 +1,18 @@
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+/src/chatbots_eval/config*
+/data/
+/0publicData/output_files/
+/src/utils/helper.py
+/src/utils/helper.py
+/0publicData/input_files/1Generators/parameter_files/filename_codes_v*
+/0publicData/input_files/1Generators/parameter_files/versions/
+/src/visualization/pruebas.py
+/0publicData/input_files/2Evaluators/AnthropicEval/SingleMetricsAnthropic_Expert_PRUEBAS.json
+/0publicData/output_files.zip
+/src/preprocessing/versionRequirementsCSVGenerators/v1Requirements_MGM.py
+/0publicData/input_files/0parameter_files/versions/v1/csvWithDialoguesCodesProfilesv1_originalCris.csv
+/0publicData/input_files/0parameter_files/versions/v1/csvWithDialoguesCodesProfilesv1.csv
