@@ -2,7 +2,7 @@
 
 This repository contains the code of the ArtGenEval Platform. For a detailed information about the experiments performed and the description, visit the following links:
 
-  * [PLATFORM DESCRIPTIO] https://doi.org/10.1016/j.eswa.2024.124524
+  * [PLATFORM DESCRIPTION] https://doi.org/10.1016/j.eswa.2024.124524
   * [DATA DESCRIPTION]
 
 
