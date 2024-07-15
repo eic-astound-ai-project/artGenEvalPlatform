@@ -355,9 +355,17 @@ If you use the platform or the data derived from it, please cite the following a
 ### License
 
 
-The resources derived from the project (software and data) are released under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)
-Universidad Politécnica de Madrid (UPM) is listed as the holder of the exploitation rights of this GitHub repository software. If you are interested on using the software or the data, contact: XX 
+The resources derived from the project (software and data) are released under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en). A first version of the dataset created using this platform can be found at: https://edatos.consorciomadrono.es/dataset.xhtml?persistentId=doi:10.21950/LBNLGA and https://huggingface.co/datasets/Astound/Art-GenEvalGPT.
 
+For technical questions you can contact any of the authors of the paper listed at https://www.sciencedirect.com/science/article/pii/S0957417424013915?via%3Dihub or you can open an issue in our Github repository.
+
+For commercial licensing,  Universidad Politécnica de Madrid (UPM) is listed as the holder of the exploitation rights of this GitHub repository software. If you are interested in using the software or the data, contact: Luis Fernando D'Haro (luisfernando.dharo@upm.es) and the UPM IPR Commercialization Office (comercializacion.ipr@upm.es).
+
+
+### Acknowledgement
+
+"This work is supported by the European Commission through Project ASTOUND (101071191 — HORIZON-EIC-2021-PATHFINDERCHALLENGES-01)" For further information please check our website and social media:
+https://www.astound-project.eu/, https://www.linkedin.com/company/astound-ai and https://twitter.com/ASTOUND_project (@ASTOUND_project)
 
 ### Files Structure
     

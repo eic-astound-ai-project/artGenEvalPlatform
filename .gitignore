@@ -3,6 +3,8 @@
 
 # Ada Library Information
 *.ali
+.idea
+
 /src/chatbots_eval/config*
 /data/
 /0publicData/output_files/
